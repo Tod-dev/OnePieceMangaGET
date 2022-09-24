@@ -1,0 +1,14 @@
+{
+  "name": "OnePieceMangaGET",
+  "version": "1.0.0",
+  "description": "Get Manga SCAN (EN) from web-scraping the web.",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "node-fetch": "^3.2.10",
+    "pdfkit": "^0.13.0",
+    "request": "^2.88.2"
+  },
+  "type": "module"
+}
