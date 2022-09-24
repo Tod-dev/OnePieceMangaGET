@@ -1,5 +1,6 @@
 # OnePieceMangaGET
-Usage: node main A B
+Usage: 
+> node main A B
 Where A>=1 and B >=A, , the program will download all chapter in [A,B]
 
 Web scraping from "https://ww8.1piecemanga.com/" [EN]
