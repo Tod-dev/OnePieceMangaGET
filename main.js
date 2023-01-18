@@ -21,6 +21,10 @@ const getTitleData = ($) => {
   if (chapter.indexOf("-") != -1) {
     chapter = chapter.split("-")[0].trim();
   }
+  if (chapter.indexOf("–") != -1) {
+    chapter = chapter.split("–")[0].trim();
+  }
+  
   //console.log("[DEBUG]chapter check:" + chapter,"legth array: " + titleSplit.length,"isNan: " + isNaN(chapter));
   if (titleSplit.length != 2 || isNaN(chapter)) {
     throw new Error("Error: NUMBER CHAPTER not found in " + titleString);
